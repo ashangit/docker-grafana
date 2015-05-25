@@ -23,7 +23,7 @@ WORKDIR /usr/share/grafana
 COPY conf/grafana.ini /data/grafana/conf/grafana.ini
 
 # Declare default env variables
-ENV GF_SECURITY_ADMIN_PASSWORD  Adm1nTest
+ENV GF_SECURITY_ADMIN_PASSWORD Adm1nTest
 
 # Expose grafana port
 EXPOSE 3000
