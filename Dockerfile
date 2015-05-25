@@ -9,7 +9,7 @@ MAINTAINER Nicolas Fraison <nfraison@yahoo.fr>
 ENV GRAFANA_VERSION 2.0.2-1
 
 # Deploy grafana.
-RUN yum install https://grafanarel.s3.amazonaws.com/builds/grafana-${GRAFANA_VERSION}.x86_64.rpm
+RUN yum install https://grafanarel.s3.amazonaws.com/builds/grafana-${GRAFANA_VERSION}.x86_64.rpm -y
 
 # Create required folders
 RUN mkdir -p /data/grafana/conf && \
