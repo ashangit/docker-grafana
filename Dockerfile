@@ -6,7 +6,7 @@
 FROM ashangit/base:latest
 MAINTAINER Nicolas Fraison <nfraison@yahoo.fr>
 
-ENV GRAFANA_VERSION 2.1.2-1
+ENV GRAFANA_VERSION 2.1.3-1
 
 # Deploy grafana.
 RUN yum install https://grafanarel.s3.amazonaws.com/builds/grafana-${GRAFANA_VERSION}.x86_64.rpm -y
